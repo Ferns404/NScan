@@ -1,0 +1,14 @@
+Phase 1: The Speed Engine: 
+Build a multi-threaded TCP scanner that scans thousands of ports in seconds.
+
+Phase 2: Stealth Mode: 
+Implement "SYN Scanning" using raw packets to evade basic firewalls.
+
+Phase 3: The Informant: 
+Add Banner Grabbing (Service Detection) and OS Fingerprinting.
+
+Phase 4: Network Discovery: 
+Add ICMP/ARP scanning to map entire subnets (find all devices on WiFi).
+
+Phase 5: The Polish: 
+Add a professional CLI UI, arguments parsing, and JSON export.
