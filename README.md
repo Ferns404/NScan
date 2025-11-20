@@ -37,28 +37,28 @@ pip install scapy colorama
 ```
 ---
 
-🎮 Usage
+### 🎮 Usage
 NScan is a command-line tool. You must run these commands as Administrator (Windows) or Root (Linux/Mac) for packet manipulation features.
 
 1. Standard Port Scan (Safe Mode)
 Uses standard TCP connections. Fast and reliable.
 Bash:
-python nscan.py <TARGET_IP_OR_DOMAIN> -p 1-1000
+```bash python nscan.py <TARGET_IP_OR_DOMAIN> -p 1-1000```
 
 2. Stealth Scan (Root/Admin Required)
 Sends raw SYN packets. Determines OS based on TTL.
 Bash:
-python nscan.py <TARGET_IP_OR_DOMAIN> --stealth
+```bash python nscan.py <TARGET_IP_OR_DOMAIN> --stealth ```
 
 3. Network Discovery (Who is on my WiFi?)
 Maps the local subnet using ARP requests.
 Bash:
-python nscan.py <SUBNET_RANGE> --discover
+```bash python nscan.py <SUBNET_RANGE> --discover ```
 
 4. Save Results
 Save the output to a JSON file for reporting.
 Bash:
-python nscan.py <TARGET_IP> --stealth -o report.json
+```bash python nscan.py <TARGET_IP> --stealth -o report.json ```
 
 ---
 
