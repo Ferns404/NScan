@@ -34,7 +34,7 @@ source venv/bin/activate  # On Windows: .\venv\Scripts\Activate.ps1
 
 # Install dependencies
 pip install scapy colorama
-
+```
 ---
 
 🎮 Usage
