@@ -1,6 +1,6 @@
 # 📡 NScan
 
-**NScan** is a high-performance, multi-threaded network reconnaissance tool built in Python. It goes beyond simple port scanning by implementing raw packet manipulation (Scapy) for stealth operations, OS fingerprinting, and local network discovery.
+**NScan** is a multi-threaded network reconnaissance tool built in Python. It goes beyond simple port scanning by implementing raw packet manipulation (Scapy) for stealth operations, OS fingerprinting, and local network discovery.
 
 It allows security researchers to map networks, identify active services, and perform "stealth" scans that evade basic firewall logging.
 
